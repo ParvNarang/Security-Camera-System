@@ -4,7 +4,6 @@ import time
 face_cascade = cv2.CascadeClassifier(
     "frontal_face.xml")
 
-
 def both():
     cap = cv2.VideoCapture(0)
     frame_width = int(cap.get(3))
